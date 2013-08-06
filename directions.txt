@@ -10,19 +10,21 @@ Problem Description:
 
 One of the most common tasks you will encounter as a front end web developer is taking a Photoshop file from a client and turning it into an HTML page. Depending on the complexity of the mockup, this can seem like a daunting task, but with enough practice you will be able to do this with your eyes closed (almost).
 
-Now that you have the index.html and about.html pages complete, you can use them as templates for the "Contact" page. Try to match the Engine Labs About PSD (or jpg, if you don't have Photoshop) as closely as you can. This time, all the design assets you will need have been added to the sprite.png file.
+Now that you have the index.html and about.html pages complete, you can use them as templates for the "Contact" page. Try to match the Engine Labs About PSD (or jpg, if you don't have Photoshop) as closely as you can. All the design assets you will need have been added to the sprite.png file.
+
+You will also notice that there are several different mockups of the top section of this page. Once you have finished the layout of the page, you can get to work turning this into a functional contact form/Twitter/Instagram feed. You can feel free to use any transition effect you like between sections. Also, do not worry about the contact form working, but you should update that section to simulate confirmation of the mail sending when someone submits the form. 
 
 
 Hints:
-* Start off by copying the entire index.html file from your last project into both the index.html file in this project, as well as the about.html file. Then, go through and remove sections from the about.html file that aren't relevant to the about page (this will be most of them). See if there are any sections in the new page design that use a similar structure to existing pieces of the old page, and leave those sections of the old HTML in place (to be edited, obviously).
+* Start off by copying the html files from your last projects into this project. Then, using one of the old pages as a template, remove sections that are not relevant to the new page. See if there are any sections in the new page design that use a similar structure to existing pieces of an old page, and leave those sections of the old HTML in place (to be edited, obviously).
 
-* If you did the RealtyCorp assignment about CSS3 effects, you should remember how to do the rollover state for the team photos. If not, you will need to add an <a> tag that covers an individual person's photo and links to a social profile of your choosing. Each <a> will have its own background image.
+
 
 General hints: 
 
 * Start building the page from the top and continue downwards.
 
-* Try to break the page into vertically-stacking sections (header, hero image, quote, features, etc). Note that each section spans the width of the page (100%) and has a more narrow (960px), centered subsection where the content goes.
+* Try to break the page into vertically-stacking sections (header, hero image, quote, features, etc). Note that each section spans the width of the page (100%) and has a more narrow (960px), centered subsection where the content goes. Come up with reusable class names for both the outer and inner containers so you can replicate this structure easily without having worry about rewriting the style declarations over and over again.
 
 * Use classes effectively: come up with class names that describe the function of a particular element rather than describing the content inside it. Creating functional classes lets you style elements quickly when they need to serve a common purpose.
 
